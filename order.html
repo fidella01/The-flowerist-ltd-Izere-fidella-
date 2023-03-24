@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>order</title>
+	<style type="text/css">
+		body{
+    background-color: hotpink;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-sizing:border-box;
+}
+		header{
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 0,0,5px #00FF;
+}
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+header li a{
+    color: #333;
+    text-decoration: none;
+    padding: 14px;
+    transition: -3s ease;
+}
+header li a:hover{
+    color: red;
+    background-color: blue;
+    border-radius: 15px;
+}
+header ul #contact a{
+    color: #fff;
+    background:royalblue ;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top:-15px;
+    transition: -3s ease;
+}
+header ul #contact a:hover{
+    background-color: gold;
+    color: #333;
+}
+.active{
+    color: pink;
+    background-color: blue;
+    border-radius: 15px;
+
+}
+header li img{
+    width: 70px;
+    float: left;
+    margin-top: -26px;
+}
+.pay{
+	border-radius: 12px 12px 12px 12px;
+	box-shadow: 12px 12px 12px 12px black;
+	width: 800px;
+	margin-left: 300px;
+}
+</style>
+</head>
+<body>
+	<div>
+    <header id="h1">
+        THE FLOWERIST LTD
+    </header>
+    <header>
+        <ul>
+            <li><a href="home.html"><img src="download (3).jpg" alt="logo" height="70px"></a></li>
+            <li ><a class="active" href="C:\Users\PC\Contacts\Desktop\web design project\home.html">Home</a></li>
+            <li><a href="C:\Users\PC\Contacts\Desktop\web design project\About Us.html">About</a></li>
+            <li id="contact"><a href="C:\Users\PC\Contacts\Desktop\web design project\Contact Us.html">Contact Us</a></li>
+        </ul>
+    </header>
+</div>
+	<div class="pay">
+		<h1>fill this form</h1>
+		<input type="text" name="product" placeholder="enter product name" required><br><br>
+		<input type="text" name="price" placeholder="enter the price" required><br><br>
+		<input type="text" name="location" placeholder="enter location" required><br>
+		<h1>choose payment method</h1><br>
+		<input type="checkbox" name="momo" required>MoMo<br>
+		<input type="text" name="tel" placeholder="+250 ........"><br>
+		<input type="submit" name="order" value="order now">
+
+	</div>
+
+</body>
+</html>
